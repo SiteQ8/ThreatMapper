@@ -1,2 +1,0 @@
-# ThreatMapper
-ThreatMapper Pro 🛡️
