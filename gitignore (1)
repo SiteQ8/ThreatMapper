@@ -1,0 +1,27 @@
+# ThreatMapper Pro
+*.pyc
+__pycache__/
+reports/
+threatmapper_config.json
+*.log
+
+# Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+api_keys.txt
+passwords.txt
