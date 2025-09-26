@@ -19,8 +19,8 @@ Traditional nmap tools leave you with raw data. ThreatMapper Pro gives you **act
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/threatmapper-pro.git
-cd threatmapper-pro
+git clone https://github.com/SiteQ8/ThreatMapper.git
+cd ThreatMapper
 
 # Install dependencies
 pip3 install -r requirements.txt
