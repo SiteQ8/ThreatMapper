@@ -1,0 +1,39 @@
+{
+  "nmap_path": "/usr/bin/nmap",
+  "max_threads": 10,
+  "scan_profiles": {
+    "quick": "-sS -T4 -F",
+    "comprehensive": "-sS -sV -sC -A -T4 -p-",
+    "stealth": "-sS -T1 -f",
+    "vulnerability": "-sV --script vuln",
+    "banking_compliance": "-sS -sV -sC --script vuln,ssl-enum-ciphers,ssl-cert -T3"
+  },
+  "threat_intel_apis": {
+    "virustotal_api": "your-virustotal-api-key-here",
+    "shodan_api": "your-shodan-api-key-here",
+    "abuse_ch": "https://urlhaus-api.abuse.ch/v1/"
+  },
+  "cve_database": "https://cve.circl.lu/api/cve/",
+  "email_notifications": {
+    "enabled": false,
+    "smtp_server": "smtp.company.com",
+    "smtp_port": 587,
+    "sender_email": "security@company.com",
+    "sender_password": "your-password-here",
+    "recipients": [
+      "security-team@company.com",
+      "manager@company.com"
+    ]
+  },
+  "risk_thresholds": {
+    "critical": 9.0,
+    "high": 7.0,
+    "medium": 4.0,
+    "low": 0.0
+  },
+  "reporting": {
+    "company_name": "Your Organization",
+    "logo_path": "",
+    "custom_css": ""
+  }
+}
