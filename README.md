@@ -1,4 +1,4 @@
-# ThreatMapper Pro 🛡️
+# ThreatMapper Pro
 
 **Intelligent Network Security Scanner with Threat Intelligence Integration**
 
