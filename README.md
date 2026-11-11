@@ -4,18 +4,18 @@
 
 ThreatMapper Pro is an advanced nmap automation script that transforms traditional network scanning into intelligent threat analysis. Built for cybersecurity teams who need more than basic port scanning - it provides vulnerability correlation, risk prioritization, and collaborative security workflows.
 
-## 🚀 Why ThreatMapper Pro?
+## Why ThreatMapper Pro?
 
 Traditional nmap tools leave you with raw data. ThreatMapper Pro gives you **actionable intelligence**:
 
-- **🧠 Intelligent Analysis**: Automatic vulnerability correlation with CVE databases
-- **🎯 Risk Prioritization**: Smart risk scoring based on threat landscape
-- **📊 Executive Reporting**: Professional reports in JSON, CSV, and HTML formats
-- **📧 Team Collaboration**: Email notifications and shared reporting
-- **⚡ Performance**: Multi-threaded scanning for enterprise networks
-- **🔒 Banking-Grade Security**: Built with enterprise security requirements in mind
+- **Intelligent Analysis**: Automatic vulnerability correlation with CVE databases
+- **Risk Prioritization**: Smart risk scoring based on threat landscape
+- **Executive Reporting**: Professional reports in JSON, CSV, and HTML formats
+- **Team Collaboration**: Email notifications and shared reporting
+- **Performance**: Multi-threaded scanning for enterprise networks
+- **Banking-Grade Security**: Built with enterprise security requirements in mind
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -29,7 +29,7 @@ pip3 install -r requirements.txt
 chmod +x threatmapper_pro.py
 ```
 
-## 📖 Quick Start
+## Quick Start
 
 ### Basic Network Scan
 ```bash
@@ -49,29 +49,29 @@ chmod +x threatmapper_pro.py
 - **stealth**: Low-intensity scan to avoid detection
 - **vulnerability**: Focused vulnerability assessment
 
-## 🎯 Key Features
+## Key Features
 
-### 🔍 Intelligent Scanning
+### Intelligent Scanning
 - Multi-threaded execution for faster results
 - Configurable scan profiles for different use cases
 - Automatic service version detection and OS fingerprinting
 
-### 🛡️ Threat Intelligence Integration
+### Threat Intelligence Integration
 - Real-time CVE database correlation
 - Risk scoring based on vulnerability severity
 - Threat campaign attribution and tracking
 
-### 📈 Advanced Reporting
+### Advanced Reporting
 - **Executive Dashboards**: High-level security metrics
 - **Technical Reports**: Detailed vulnerability analysis
 - **Compliance Ready**: Structured data for audit requirements
 
-### 👥 Team Collaboration
+### Team Collaboration
 - Email notifications for critical findings
 - Shared configuration management
 - Audit logging for security operations
 
-## ⚙️ Configuration
+## Configuration
 
 ThreatMapper Pro uses a JSON configuration file (`threatmapper_config.json`) that's automatically created on first run:
 
@@ -95,7 +95,7 @@ ThreatMapper Pro uses a JSON configuration file (`threatmapper_config.json`) tha
 }
 ```
 
-## 📊 Sample Output
+## Sample Output
 
 ### JSON Report Structure
 ```json
@@ -127,24 +127,24 @@ ThreatMapper Pro uses a JSON configuration file (`threatmapper_config.json`) tha
 - High Risk Hosts: 7
 - Total Vulnerabilities Found: 23
 
-## 🎪 Use Cases
+## Use Cases
 
-### 🏦 Banking & Financial Services
+### Banking & Financial Services
 - **Regulatory Compliance**: PCI DSS, SOX compliance scanning
 - **Risk Assessment**: Quantified risk scoring for audit reports
 - **Threat Monitoring**: Continuous security posture assessment
 
-### 🏢 Enterprise Networks
+### Enterprise Networks
 - **Asset Discovery**: Complete network inventory management
 - **Vulnerability Management**: Prioritized patch management workflows
 - **Security Operations**: Integration with SIEM and ticketing systems
 
-### 🔒 Penetration Testing
+### Penetration Testing
 - **Reconnaissance**: Enhanced target profiling with threat intelligence
 - **Vulnerability Assessment**: Comprehensive security gap analysis
 - **Reporting**: Professional client-ready security reports
 
-## 🚨 Advanced Features
+## Advanced Features
 
 ### Risk Scoring Algorithm
 ThreatMapper Pro uses a sophisticated risk scoring system:
@@ -158,7 +158,7 @@ ThreatMapper Pro uses a sophisticated risk scoring system:
 - **CSV**: Spreadsheet-compatible for analysis and tracking  
 - **HTML**: Executive-friendly dashboards and visualizations
 
-## 🔧 Command Line Reference
+## Command Line Reference
 
 ```bash
 # Basic usage
@@ -173,7 +173,7 @@ ThreatMapper Pro uses a sophisticated risk scoring system:
 --list-profiles       Show available scan profiles
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the cybersecurity community! 
 
@@ -185,26 +185,26 @@ pip3 install -r requirements-dev.txt
 ```
 
 ### Contribution Areas
-- **🌐 Threat Intelligence**: Additional API integrations
-- **📊 Reporting**: New visualization and export formats
-- **🔌 Integrations**: SIEM, ticketing, and workflow connectors
-- **🧪 Testing**: Security testing and validation frameworks
+- **Threat Intelligence**: Additional API integrations
+- **Reporting**: New visualization and export formats
+- **Integrations**: SIEM, ticketing, and workflow connectors
+- **Testing**: Security testing and validation frameworks
 
-## 📜 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-## ⚠️ Legal Notice
+## Legal Notice
 
 This tool is for authorized security testing only. Users are responsible for compliance with applicable laws and regulations. Always obtain proper authorization before scanning networks you don't own.
 
-## 🆘 Support
+## Support
 
-- **📖 Documentation**: [Wiki](https://github.com/yourusername/threatmapper-pro/wiki)
-- **🐛 Issues**: [GitHub Issues](https://github.com/yourusername/threatmapper-pro/issues)
-- **💬 Community**: [Discussions](https://github.com/yourusername/threatmapper-pro/discussions)
+- **Documentation**: [Wiki](https://github.com/yourusername/threatmapper-pro/wiki)
+- **Issues**: [GitHub Issues](https://github.com/yourusername/threatmapper-pro/issues)
+- **Community**: [Discussions](https://github.com/yourusername/threatmapper-pro/discussions)
 
-## 🏆 Credits
+## Credits
 
 Built by cybersecurity professionals for the cybersecurity community. Special thanks to:
 - The nmap development team for the foundational scanning engine
