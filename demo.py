@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ThreatMapper Pro - Demo Script
-This script demonstrates various usage scenarios for ThreatMapper Pro
+Usage scenarios for ThreatMapper Pro
 """
 
 import subprocess

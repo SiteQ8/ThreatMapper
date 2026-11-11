@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 ThreatMapper Pro - Intelligent Network Security Scanner
-Author: Cybersecurity Community
+Author: Ali AlEnezi
 Version: 1.0.0
 License: MIT
 
-A comprehensive nmap automation script that integrates threat intelligence,
+An nmap automation script that integrates threat intelligence,
 vulnerability correlation, and collaborative security workflows.
 """
 
@@ -31,7 +31,7 @@ from email.mime.multipart import MIMEMultipart
 
 class ThreatMapper:
     """
-    Advanced nmap automation with threat intelligence integration
+    nmap automation with threat intelligence integration
     """
 
     def __init__(self, config_file: str = "threatmapper_config.json"):
@@ -336,7 +336,7 @@ class ThreatMapper:
         return base_score, risk_level
 
     def generate_report(self, scan_data: Dict, output_format: str = "json") -> str:
-        """Generate comprehensive scan report"""
+        """Generate scan report"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
         # Enhance scan data with threat intelligence

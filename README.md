@@ -179,8 +179,8 @@ We welcome contributions from the cybersecurity community!
 
 ### Development Setup
 ```bash
-git clone https://github.com/yourusername/threatmapper-pro.git
-cd threatmapper-pro
+git clone https://github.com/SiteQ8/ThreatMapper.git
+cd ThreatMapper
 pip3 install -r requirements-dev.txt
 ```
 
@@ -200,9 +200,9 @@ This tool is for authorized security testing only. Users are responsible for com
 
 ## Support
 
-- **Documentation**: [Wiki](https://github.com/yourusername/threatmapper-pro/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/threatmapper-pro/issues)
-- **Community**: [Discussions](https://github.com/yourusername/threatmapper-pro/discussions)
+- **Documentation**: [Wiki](https://github.com/SiteQ8/ThreatMapper/wiki)
+- **Issues**: [GitHub Issues](https://github.com/SiteQ8/ThreatMapper/issues)
+- **Community**: [Discussions](https://github.com/SiteQ8/ThreatMapper/discussions)
 
 ## Credits
 
